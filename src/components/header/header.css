@@ -1,0 +1,10 @@
+.header {
+    border-top: 1px solid #A06CD5;
+    border-bottom: 1px solid #A06CD5;
+    margin: 20px 0;
+}
+
+.header_title {
+    color: #A06CD5;
+    text-transform: uppercase;
+}

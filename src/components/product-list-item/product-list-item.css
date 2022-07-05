@@ -1,0 +1,82 @@
+.product-list-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #0627263b;
+}
+
+.product-list-item-price {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.product-list-item-btn {
+    border: none;
+    background: none;
+    display: block;
+    border-radius: 10px;
+}
+
+.btn-plus {
+  font-weight: 900;
+}
+
+.product-list-item-label {
+  flex:60%;
+}
+
+.product-list-item-price, .product-list-item-btns {
+  flex: 20%
+}
+
+.product-list-item.offer .product-list-item-label, .product-list-item.offer .product-list-item-price  {
+  color:#A06CD5;
+}
+
+.product-list-item.offer .btn-plus {
+  color:#A06CD5;
+}
+.product-list-item-btns {
+  display:flex;
+}
+
+
+.btn-offer::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url(../../../img/star.svg);
+  background-size: 20px 20px;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.btn-fav::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url(../../../img/like.svg);
+  background-size: 20px 20px;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.btn-del::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url(../../../img/delete.svg);
+  background-size: 20px 20px;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.product-list-item-btn.active .btn-offer::before {
+  background-image: url(../../../img/star-active.svg);
+}
+
+.product-list-item-btn.active .btn-fav::before {
+  background-image: url(../../../img/like-active.svg);
+}

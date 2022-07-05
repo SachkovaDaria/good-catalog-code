@@ -1,0 +1,14 @@
+.product-summary {
+    background-color: #A06CD5;
+    color: #fff;
+    padding:10px;
+}
+
+.product-summary_title {
+    font-size: 26px;
+}
+
+.product-summary_text {
+    margin-bottom: 0;
+}
+

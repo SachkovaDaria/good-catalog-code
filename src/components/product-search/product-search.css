@@ -1,0 +1,11 @@
+.product-search-panel {
+    background-color: #A06CD5;
+    color: #fff;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.product-search-panel-input {
+    width: 100%;
+    padding: 5px;
+}
